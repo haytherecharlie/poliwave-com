@@ -15,6 +15,7 @@ export const Title = styled.span`
   font-family: cocogoose;
   font-size: 3rem;
   line-height: 3rem;
+  text-transform: uppercase;
 `
 
 export const Meta = styled.span`
