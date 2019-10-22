@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     font-size: 20pt;
-    background: #FFF;
+    background: #082d3d;
   }
 
   #root {
@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+    background: #fff;
   }
 
   div {
@@ -63,7 +64,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Page = styled.div`
   flex: 1;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   background-color: #fff;
   display: flex;

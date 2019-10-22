@@ -1,0 +1,31 @@
+[debug] [2019-10-22T21:11:23.515Z] ----------------------------------------------------------------------
+[debug] [2019-10-22T21:11:23.517Z] Command:       /Users/haytrix/.nvm/versions/node/v10.16.3/bin/node /Users/haytrix/.nvm/versions/node/v10.16.3/bin/firebase deploy
+[debug] [2019-10-22T21:11:23.517Z] CLI Version:   7.4.0
+[debug] [2019-10-22T21:11:23.517Z] Platform:      darwin
+[debug] [2019-10-22T21:11:23.517Z] Node Version:  v10.16.3
+[debug] [2019-10-22T21:11:23.518Z] Time:          Tue Oct 22 2019 17:11:23 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-10-22T21:11:23.518Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-22T21:11:23.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-22T21:11:23.524Z] > authorizing via signed-in user
+[debug] [2019-10-22T21:11:23.525Z] [iam] checking project poliwave for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-22T21:11:23.526Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poliwave:testIamPermissions  
+
+[debug] [2019-10-22T21:11:24.100Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-22T21:11:24.103Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/poliwave  
+ 
+[debug] [2019-10-22T21:11:24.513Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'poliwave'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-10-22T21:11:24.517Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/poliwave/versions  
+
+[debug] [2019-10-22T21:11:25.268Z] <<< HTTP RESPONSE 200
+[info] i  hosting[poliwave]: beginning deploy...
+[info] i  hosting[poliwave]: found 39 files in app/build
+[debug] [2019-10-22T21:11:25.285Z] [hosting] hash cache [YXBwL2J1aWxk] load error: lines is not defined
+[debug] [2019-10-22T21:11:25.556Z] [hosting] hash cache [YXBwL2J1aWxk] stored for 39 files
+[debug] [2019-10-22T21:11:25.557Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-22T21:11:25.557Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/poliwave/versions/0d43fb917217b9c7:populateFiles  
+ <request body omitted>

@@ -20,6 +20,7 @@ export const Title = styled.span`
 export const Meta = styled.span`
   font-size: 14px;
   color: #666;
+  padding: 1rem 0;
 `
 
 export const Banner = styled.img`
@@ -29,11 +30,11 @@ export const Banner = styled.img`
 `
 
 export const GoBack = styled.button`
-  margin: 2rem 0;
+  width: 100%;
+  padding: 0.5rem;
   font-size: 16px;
-  color: #044A7F;
+  color: #044a7f;
   font-weight: 400;
   background: #fff;
-  border: 1px solid #044A7F;
+  border: 1px solid #044a7f;
 `
-

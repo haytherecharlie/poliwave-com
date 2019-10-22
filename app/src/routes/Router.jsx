@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import Header from 'components/Header/Header'
+import Footer from 'components/Footer/Footer'
 import Landing from 'views/Landing/Landing'
 import Entry from 'views/Entry/Entry'
 import { addEntries } from 'redux/store'
@@ -22,6 +23,7 @@ const Router = () => {
         <Route exact path="/" component={Landing} />
         <Route path="/:entry" component={Entry} />
       </Page>
+      <Footer/>
     </BrowserRouter>
   )
 }

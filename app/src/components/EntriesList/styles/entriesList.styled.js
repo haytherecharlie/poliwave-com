@@ -7,7 +7,6 @@ export const EntriesList = styled.div`
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-  padding: 0.5rem;
 `
 
 export const Card = styled.div`
@@ -31,17 +30,18 @@ export const Title = styled.span`
 export const Meta = styled.span`
   font-size: 14px;
   color: #666;
+  padding: 1rem 0;
 `
 
 export const Banner = styled.img`
   height: auto;
-  max-width: 80%;
-  width: auto;
-  margin: 0.5rem auto;
+  width: 100%;
+  margin-bottom: 1rem;
 `
 
 export const ReadMore = styled.button`
-  margin: 2rem 0;
+  width: 100%;
+  padding: 0.5rem;
   font-size: 16px;
   color: #044a7f;
   font-weight: 400;
