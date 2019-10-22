@@ -40,7 +40,11 @@ export const Banner = styled.img`
   margin: 0.5rem auto;
 `
 
-export const ReadMore = styled.div`
+export const ReadMore = styled.button`
+  margin: 2rem 0;
   font-size: 16px;
-  color: #16b9ff;
+  color: #044a7f;
+  font-weight: 400;
+  background: #fff;
+  border: 1px solid #044a7f;
 `

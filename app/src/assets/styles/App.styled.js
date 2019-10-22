@@ -31,6 +31,10 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
+  a, a:active, a:hover, a:visited {
+    color: #044A7F;
+  }
+
   .entry-markdown {
     display: flex;
     flex-direction: column;

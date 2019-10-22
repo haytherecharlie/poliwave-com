@@ -12,8 +12,9 @@ export const Card = styled.div`
 export const Title = styled.span`
   font-weight: 900;
   color: #082d3d;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-family: cocogoose;
+  font-size: 3rem;
+  line-height: 3rem;
 `
 
 export const Meta = styled.span`
@@ -24,5 +25,15 @@ export const Meta = styled.span`
 export const Banner = styled.img`
   height: auto;
   width: 100%;
+  margin-bottom: 1rem;
+`
+
+export const GoBack = styled.button`
+  margin: 2rem 0;
+  font-size: 16px;
+  color: #044A7F;
+  font-weight: 400;
+  background: #fff;
+  border: 1px solid #044A7F;
 `
 

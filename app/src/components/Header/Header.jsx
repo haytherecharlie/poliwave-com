@@ -7,7 +7,7 @@ const Header = () => (
   <S.Header>
     <S.HeaderContent>
       <Link to="/">
-        <Logo size={200} />
+        <Logo size={40} />
       </Link>
     </S.HeaderContent>
   </S.Header>

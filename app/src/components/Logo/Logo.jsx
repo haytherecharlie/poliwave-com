@@ -1,7 +1,6 @@
 import React from 'react'
-import logo from 'assets/images/logo.png'
 import * as S from './styles/logo.styled'
 
-const Logo = ({ size }) => <S.Logo size={size} src={logo} />
+const Logo = ({ size }) => <S.Logo size={size}>POLIWAVE</S.Logo>
 
 export default Logo

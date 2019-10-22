@@ -11,7 +11,7 @@ export const Header = styled.span`
 `
 
 export const HeaderContent = styled.div`
-  padding: .5rem 1rem;
+  padding: 0rem 1rem;
   flex: 1;
   max-width: 1200px;
   display: flex;

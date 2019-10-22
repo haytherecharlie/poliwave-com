@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const Logo = styled.img`
-  width: ${p => p.size}px;
-  height: auto;
+export const Logo = styled.span`
+  font-size: ${p => p.size}px;
   -webkit-font-smoothing: antialiased;
-  margin-top: -5px;
+  color: #fff;
+  font-family: cocogoose;
 `

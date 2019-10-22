@@ -23,7 +23,7 @@ const EntriesList = () => {
             </S.Meta>
             <S.Banner src={file.url} alt={description} />
             <ReactMarkdown className="entry-markdown" source={cta} />
-            <S.ReadMore>Read More..</S.ReadMore>
+            <S.ReadMore>Read More &rsaquo;</S.ReadMore>
           </S.Card>
         </Link>
       )
