@@ -17,7 +17,6 @@ const Entry = ({ match: { params }, location: {pathname}, history }) => {
       const { file, description } = banner.fields
       const { createdAt, updatedAt } = entry.sys
       const date = createdAt >= updatedAt ? createdAt : updatedAt
-      console.log(cta)
       return (
         <S.Card>
           <Helmet>
